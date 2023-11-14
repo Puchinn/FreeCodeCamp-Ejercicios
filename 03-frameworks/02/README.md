@@ -1,8 +1,7 @@
-# React + Vite
+## Construye un previsualizador de Markdown
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Objetivo :** Build an app that is functionally similar to this: https://markdown-previewer.freecodecamp.rocks/.
 
-Currently, two official plugins are available:
+You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Ver demo](https://free-code-camp-ejercicios.vercel.app/)
