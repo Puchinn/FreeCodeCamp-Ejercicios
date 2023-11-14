@@ -1,0 +1,16 @@
+#options {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  outline: none;
+  background: none;
+  border: 1px solid #7b7b7b;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #eaeaea;
+}

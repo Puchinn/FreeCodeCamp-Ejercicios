@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(232, 237, 237);
+}
+#App {
+  padding: 10px;
+}
+
+#App > h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #313131;
+  padding-bottom: 10px;
+}
+
+#app-main {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+
+#app-main.horizontal {
+  grid-template-columns: 40% 60%;
+  grid-template-rows: minmax(83vh, 84vh);
+}
+
+#app-main.vertical {
+  grid-template-rows: auto minmax(auto, 80vh);
+}
