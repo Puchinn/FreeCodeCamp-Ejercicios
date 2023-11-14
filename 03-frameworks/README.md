@@ -7,7 +7,7 @@ Después, construirás un carrito de compras y otras aplicaciones para aprender 
 ### Proyectos
 
 - [Máquina de frases aleatorias](01/) | [Ver demo](http://frameworks-proyecto1.surge.sh/)
-- Previsualizador de Markdown
+- [Previsualizador de Markdown](02/) | [Ver demo](https://free-code-camp-ejercicios.vercel.app/)
 - Batería electrónica
 - Calculadora con JavaScript
 - Reloj 25 + 5
