@@ -24,18 +24,18 @@ Por último, aprenderás cómo hacer páginas web que respondan a diferentes tam
 
 **Objetivo**: Crea una aplicación que sea funcionalmente similar a https://technical-documentation-page.freecodecamp.rocks
 
-- Solución 1 (2022) [Ver página](http://pagina-tecnica2022.surge.sh/) | [Ver código](03-pagina-tecnica/)
+- Solución 1 (2022) [Ver página](https://pagina-tecnica2022.surge.sh/) | [Ver código](03-pagina-tecnica/)
 
 ### Proyecto 4 - Contruir una Landing Page
 
 **Objetivo**: Crea una aplicación que sea funcionalmente similar a https://product-landing-page.freecodecamp.rocks
 
-- Solución 1 (2022) [Ver página](http://landing-page2022.surge.sh/) | [Ver código](04-landing-page/solucion-2022/)
+- Solución 1 (2022) [Ver página](https://landing-page2022.surge.sh/) | [Ver código](04-landing-page/solucion-2022/)
 - Solución 2 (2023) [Ver página](https://puchinn.github.io/lading-page/) | [Ver código](https://github.com/Puchinn/lading-page)
 
 ### Proyecto 5 - Contruir un Portafolio personal
 
 **Objetivo**: Crea una aplicación que sea funcionalmente similar a https://personal-portfolio.freecodecamp.rocks
 
-- Solución 1 (2022) [Ver página](http://portafolio2022.surge.sh/) | [Ver código](05-portafolio/solucion-2022/)
+- Solución 1 (2022) [Ver página](https://portafolio2022.surge.sh/) | [Ver código](05-portafolio/solucion-2022/)
 - Solución 2 (2023) [Ver página](https://estebansayago.vercel.app/) | [Ver código](https://github.com/Puchinn/Portafolio)
