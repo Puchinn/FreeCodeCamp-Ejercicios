@@ -11,6 +11,11 @@ keys.addEventListener("click", (e) => {
 
     if (!action) {
       console.log("number key");
+      if (displayedNum === "0") {
+        display.textContent = keyContent
+      } else {
+        display.textContent = displayedNum + keyContent
+      }
     }
     if (
       action === "add" ||
@@ -19,9 +24,10 @@ keys.addEventListener("click", (e) => {
       action === "divide"
     ) {
       console.log("operator key");
+      key.classList.add("is-depressed")
     }
     if (action === "decimal") {
-      console.log("decimal key!");
+      display.textContent = displayedNum + keyContent
     }
 
     if (action === "clear") {
@@ -31,5 +37,11 @@ keys.addEventListener("click", (e) => {
     if (action === "calculate") {
       console.log("equal key!");
     }
+    Array.from(keys.children).forEach(keyChild => {
+      keyChild.classList.remove("is-depressed")
+    })
   }
 });
+
+
+
