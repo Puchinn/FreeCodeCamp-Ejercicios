@@ -2,46 +2,69 @@ const calculator = document.querySelector(".calculator");
 const keys = calculator.querySelector(".calculator__keys");
 const display = document.querySelector(".calculator__display");
 
+let num1 = "";
+let num2 = "";
+let operator = "";
+
 keys.addEventListener("click", (e) => {
   if (e.target.matches("button")) {
-    const key = e.target;
-    const action = key.dataset.action;
-    const keyContent = key.textContent;
-    const displayedNum = display.textContent;
+    const action = e.target.dataset.action;
+    const keyValue = e.target.textContent;
 
-    if (!action) {
-      console.log("number key");
-      if (displayedNum === "0") {
-        display.textContent = keyContent
-      } else {
-        display.textContent = displayedNum + keyContent
+    if (!action && !operator) {
+      num1 += keyValue;
+      display.textContent = num1;
+    }
+    if (action) {
+      if (action === "decimal") {
+        operator ? (num2 = addDecimal(num2)) : (num1 = addDecimal(num1));
+        return;
       }
+      if (action === "clear") {
+        return clear();
+      }
+      if (action === "calculate") {
+        const result = calculate(num1, operator, num2);
+        if (Number.isSafeInteger(result)) {
+          display.textContent = result;
+        } else {
+          display.textContent = result.toFixed(2);
+        }
+      }
+      operator = action;
     }
-    if (
-      action === "add" ||
-      action === "subtract" ||
-      action === "multiply" ||
-      action === "divide"
-    ) {
-      console.log("operator key");
-      key.classList.add("is-depressed")
+    if (!action && operator) {
+      num2 += keyValue;
+      display.textContent = num2;
     }
-    if (action === "decimal") {
-      display.textContent = displayedNum + keyContent
-    }
-
-    if (action === "clear") {
-      console.log("clear key!");
-    }
-
-    if (action === "calculate") {
-      console.log("equal key!");
-    }
-    Array.from(keys.children).forEach(keyChild => {
-      keyChild.classList.remove("is-depressed")
-    })
   }
 });
 
+function addDecimal(num) {
+  if (num.includes(".")) return num;
+  return (num += ".");
+}
 
+function calculate(num1, operation, num2) {
+  const a = Number(num1);
+  const b = Number(num2);
+  switch (operation) {
+    case "add":
+      return a + b;
+    case "subtract":
+      return a - b;
+    case "multiply":
+      return a * b;
+    case "divide":
+      return a / b;
+    default:
+      return null;
+  }
+}
 
+function clear() {
+  display.textContent = 0;
+  num1 = "";
+  num2 = "";
+  operator = "";
+}
