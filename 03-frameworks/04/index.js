@@ -14,40 +14,25 @@ keys.addEventListener("click", (e) => {
 
     if (!action && !operator) {
       num1 += keyValue;
-      display.textContent = num1;
+      display.textContent = parseFloat(num1);
     }
 
     if (action) {
       if (action === "decimal") {
-        operator ? (num2 = addDecimal(num2)) : (num1 = addDecimal(num1));
-        return;
+        return addDecimal();
       }
       if (action === "clear") {
         return clear();
       }
       if (action === "calculate") {
-        if (lastResult && !num1) {
-          num1 = lastResult;
-        }
-        const result = calculate(num1, operator, num2);
-        if (Number.isSafeInteger(result)) {
-          display.textContent = result;
-          lastResult = result;
-        } else {
-          display.textContent = result.toFixed(2);
-          lastResult = result.toFixed(2);
-        }
-        num1 = "";
-        num2 = "";
-        operator = "";
-        return;
+        return calculateResult();
       }
       operator = action;
     }
 
     if (!action && operator) {
       num2 += keyValue;
-      display.textContent = num2;
+      display.textContent = parseFloat(num2);
     }
   }
 
@@ -59,12 +44,22 @@ keys.addEventListener("click", (e) => {
   });
 });
 
-function addDecimal(num) {
+function validateDecimal(num) {
   if (num.includes(".")) return num;
   return (num += ".");
 }
 
-function calculate(num1, operation, num2) {
+function addDecimal() {
+  if (operator) {
+    num2 = validateDecimal(num2);
+    display.textContent = num2;
+  } else {
+    num1 = validateDecimal(num1);
+    display.textContent = num1;
+  }
+}
+
+function Calculator(num1, operation, num2) {
   const a = Number(num1);
   const b = Number(num2);
   switch (operation) {
@@ -79,6 +74,23 @@ function calculate(num1, operation, num2) {
     default:
       return null;
   }
+}
+
+function calculateResult() {
+  if (lastResult && !num1) {
+    num1 = lastResult;
+  }
+  const result = Calculator(num1, operator, num2);
+  if (Number.isSafeInteger(result)) {
+    display.textContent = result;
+    lastResult = result;
+  } else {
+    display.textContent = result.toFixed(2);
+    lastResult = result.toFixed(2);
+  }
+  num1 = "";
+  num2 = "";
+  operator = "";
 }
 
 function clear() {
