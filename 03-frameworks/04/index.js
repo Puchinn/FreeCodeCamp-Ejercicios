@@ -27,6 +27,9 @@ keys.addEventListener("click", (e) => {
       if (action === "calculate") {
         return calculateResult();
       }
+      if (action === "negative") {
+        return negativeNumber();
+      }
       operator = action;
     }
 
@@ -43,6 +46,14 @@ keys.addEventListener("click", (e) => {
     lastResult,
   });
 });
+
+function negativeNumber() {
+  if (operator) {
+    num2 = "-";
+  } else {
+    num1 = "-";
+  }
+}
 
 function validateDecimal(num) {
   if (num.includes(".")) return num;
