@@ -1,8 +1,5 @@
-# React + Vite
+## 25 + 5 Reloj
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Objective:** Build an app that is functionally similar to this: https://25--5-clock.freecodecamp.rocks.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Ver demo](https://frameworks-proyecto5.surge.sh/)
