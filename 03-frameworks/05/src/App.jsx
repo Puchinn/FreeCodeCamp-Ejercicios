@@ -107,6 +107,9 @@ function App() {
           </button>
         </div>
       </div>
+      <a href="https://github.com/Puchinn" target="_blank" rel="noreferrer">
+        By Puchinn
+      </a>
       <Alarm refElem={audioRef} />
     </div>
   );
