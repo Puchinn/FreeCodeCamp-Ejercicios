@@ -10,7 +10,7 @@ Después, construirás un carrito de compras y otras aplicaciones para aprender 
 - [Previsualizador de Markdown](02/) | [Ver demo](https://free-code-camp-ejercicios.vercel.app/)
 - [Batería electrónica](03/) | [Ver demo](https://frameworks-proyecto3.surge.sh/)
 - [Calculadora con JavaScript](04/) | [Ver demo](https://frameworks-proyecto4.surge.sh/)
-- Reloj 25 + 5
+- [Reloj 25 + 5](05/) | [Ver demo](https://frameworks-proyecto5.surge.sh/)
 
 ### Temario
 
