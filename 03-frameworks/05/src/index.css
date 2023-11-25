@@ -37,3 +37,13 @@ button{
     font-size: 20px;
     font-weight: 600;
 }
+
+a{
+    display: block;
+    text-align: center;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+}
