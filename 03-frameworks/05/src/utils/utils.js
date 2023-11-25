@@ -5,4 +5,10 @@ function formatedTime(hours, minutes, seconds) {
   return `${minute}:${second}`;
 }
 
-export { formatedTime };
+function newDateTimer(newTime) {
+  const date = new Date();
+  date.setMinutes(date.getMinutes() + newTime);
+  return date;
+}
+
+export { formatedTime, newDateTimer };
