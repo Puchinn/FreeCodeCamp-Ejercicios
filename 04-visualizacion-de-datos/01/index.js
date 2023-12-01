@@ -14,7 +14,11 @@ const chart = () => {
   const marginBottom = 30;
   const marginLeft = 40;
 
-  const tooltip = d3.select("body").append("div").attr("class", "tooltip");
+  const tooltip = d3
+    .select("body")
+    .append("div")
+    .attr("class", "tooltip")
+    .attr("id", "tooltip");
 
   const x = d3
     .scaleUtc()
@@ -31,11 +35,13 @@ const chart = () => {
   svg
     .append("g")
     .attr("transform", `translate(0,${height - marginBottom - 30})`)
+    .attr("id", "x-axis")
     .call(d3.axisBottom(x));
 
   svg
     .append("g")
     .attr("transform", `translate(${marginLeft},0)`)
+    .attr("id", "y-axis")
     .call(d3.axisLeft(y));
 
   svg
@@ -49,6 +55,8 @@ const chart = () => {
     .attr("width", 2.5)
     .attr("height", (d) => y(0) - y(d[1]))
     .attr("class", "bar")
+    .attr("data-date", (d) => d[0])
+    .attr("data-gdp", (d) => d[1])
     .on("mouseover", (d, i) => {
       tooltip
         .html(
@@ -56,7 +64,8 @@ const chart = () => {
         \$ ${i[1]} Billion
         `
         )
-        .style("visibility", "visible");
+        .style("visibility", "visible")
+        .attr("data-date", i[0]);
     })
     .on("mousemove", (e) => {
       tooltip
