@@ -9,7 +9,7 @@ También acerca de JSON (JavaScript Object Notation), y cómo trabajar con datos
 - [Visualiza datos con una gráfica de barras](01/) | [Ver demo](https://visualizacion-de-datos-proyecto1.surge.sh/)
 - [Visualiza datos con una gráfica de diagrama de dispersión](02/) | [Ver demo](https://visualizacion-de-datos-proyecto2.surge.sh/)
 - [Visualiza datos con un mapa de calor](03/) | [Ver demo](https://visualizacion-de-datos-proyecto3.surge.sh/)
-- Visualiza datos con un mapa coroplético
+- [Visualiza datos con un mapa coroplético](04/) | [Ver demo](https://visualizacion-de-datos-proyecto4.surge.sh/)
 - Visualiza datos con un diagrama de mapa de árbol
 
 ### Temario
