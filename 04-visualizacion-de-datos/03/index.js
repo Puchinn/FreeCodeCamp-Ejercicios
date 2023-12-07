@@ -42,6 +42,7 @@ const chart = () => {
   svg
     .append("g")
     .attr("transform", `translate(${margin + 30},0)`)
+    .attr("id", "y-axis")
     .call(yAxis);
 
   const x = d3
@@ -65,6 +66,7 @@ const chart = () => {
   svg
     .append("g")
     .attr("transform", `translate(0,${maxHeightSvg - margin})`)
+    .attr("id", "x-axis")
     .call(xAxis);
 
   const legendColors = d3.schemeRdYlBu[11].reverse();
@@ -117,6 +119,10 @@ const chart = () => {
     .attr("width", (d) => x.bandwidth(d.year))
     .attr("height", (d) => y.bandwidth(d.month))
     .attr("fill", (d) => legendThreshold(baseTemperature + d.variance))
+    .attr("class", "cell")
+    .attr("data-month", (d) => d.month)
+    .attr("data-year", (d) => d.year)
+    .attr("data-temp", (d) => d.variance)
     .on("mouseover", (event, d) => {
       const date = new Date(d.year, d.month);
       tooltip
@@ -129,9 +135,10 @@ const chart = () => {
       ${d3.format("+.1f")(d.variance)}&#8451
       `
         )
+        .style("display", "block")
         .style("top", `${event.pageY}px`)
         .style("left", `${event.pageX}px`)
-        .style("display", "block");
+        .attr("data-year", d.year);
     })
     .on("mouseout", () => {
       tooltip.style("display", "none");
@@ -140,6 +147,7 @@ const chart = () => {
   svg
     .append("text")
     .text("Monthly Global Land-Surface Temperature")
+    .attr("id", "title")
     .style("font-size", "24px")
     .attr("transform", `translate(${width / 2},${(margin - 20) / 2})`)
     .style("text-anchor", "middle");
@@ -147,6 +155,7 @@ const chart = () => {
   svg
     .append("text")
     .text("1753 - 2015: base temperature 8.66℃")
+    .attr("id", "description")
     .attr("transform", `translate(${width / 2},${(margin + 20) / 2})`)
     .style("font-size", "18px")
     .style("text-anchor", "middle");
