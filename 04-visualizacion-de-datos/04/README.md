@@ -4,3 +4,5 @@
 
 - Datos de educación de Estados Unidos: https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/for_user_education.json
 - Datos de condados de Estados Unidos: https://cdn.freecodecamp.org/testable-projects-fcc/data/choropleth_map/counties.json
+
+[demo](https://visualizacion-de-datos-proyecto4.surge.sh/)
