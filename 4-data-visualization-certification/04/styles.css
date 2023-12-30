@@ -1,0 +1,14 @@
+.tooltip {
+  position: absolute;
+  z-index: 10;
+  display: none;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  color: #fff;
+}
+
+#app {
+  max-width: min-content;
+  margin: auto;
+}
