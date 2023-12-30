@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Landing Page</title>
+  </head>
+  <body id="main">
+    <!-- Header -->
+
+    <header id="header">
+      <nav id="nav-bar">
+        <label for="menu" class="label-nav">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" name="menu" id="menu" class="input-nav" />
+        <div class="test">
+          <div class="nav-content-links">
+            <a href="#main" class="nav-link">Main</a>
+            <a href="#video-section" class="nav-link">Video</a>
+            <a href="#boxs" class="nav-link">Cards</a>
+            <a href="#footer" class="nav-link">Footer</a>
+          </div>
+
+          <div class="div-email">
+            <form
+              action="https://www.freecodecamp.com/email-submit"
+              autocomplete="off"
+              class="form-content"
+              id="form"
+            >
+              <label for="email">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  valid
+                  placeholder="Introduce Tu Email"
+                />
+              </label>
+              <input
+                type="submit"
+                name="submit"
+                id="submit"
+                value="Contact Us"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div id="header-img-content">
+          <img
+            src="https://www.nicepng.com/png/full/338-3384104_logo-replikat-innovacion-imagen-negro-transparente-logos-con.png"
+            alt="fakelogo"
+            id="header-img"
+          />
+        </div>
+
+        <div class="header-title">
+          <h1 class="header-h1">Lorem ipsum dolor sit amet. Lorem, ipsum.</h1>
+          <p class="header-p">Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main -->
+
+    <main class="main">
+      <div class="main-content">
+        <h1 class="main-title">
+          Lorem ipsum dolor sit amet consectetur adipisicing.
+        </h1>
+        <div class="div-flexs-content">
+          <div class="div-flexs">
+            <i class="fa-solid fa-car"></i>
+            <div class="main-text">
+              <h2 class="title-t">Titulo</h2>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                sunt quas doloribus? Cum, dolore! Lorem ipsum dolor sit amet
+                consectetur adipisicing.
+              </p>
+            </div>
+          </div>
+          <div class="div-flexs">
+            <i class="fa-solid fa-user-tie"></i>
+            <div class="main-text">
+              <h2 class="title-t">Titulo</h2>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                sunt quas doloribus? Cum, dolore! Lorem ipsum dolor sit amet
+                consectetur adipisicing.
+              </p>
+            </div>
+          </div>
+          <div class="div-flexs">
+            <i class="fa-solid fa-building-circle-check"></i>
+            <div class="main-text">
+              <h2 class="title-t">Titulo</h2>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                sunt quas doloribus? Cum, dolore! Lorem ipsum dolor sit amet
+                consectetur adipisicing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section Video -->
+
+      <div class="section2" id="video-section">
+        <h1 class="title-video">Titulo del video</h1>
+        <div class="video">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/1LgEKDkPrX0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <!-- Fake Boxs-->
+
+        <div class="contet-boxs" id="boxs">
+          <div class="box">
+            <h1 class="box-title">Titulo</h1>
+            <div class="text-p">
+              <p>$500</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="div-buton">
+              <button class="box-buton">Select</button>
+            </div>
+          </div>
+          <div class="box">
+            <h1 class="box-title">Titulo</h1>
+            <div class="text-p">
+              <p>$700</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="div-buton">
+              <button class="box-buton">Select</button>
+            </div>
+          </div>
+          <div class="box">
+            <h1 class="box-title">Titulo</h1>
+            <div class="text-p">
+              <p>$900</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="div-buton">
+              <button class="box-buton">Select</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer" id="footer">
+      <h2>Esteban Sayago</h2>
+      <h2>Argentina</h2>
+      <i class="fa-solid fa-crown"></i>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script
+      src="https://kit.fontawesome.com/5061747cb9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
