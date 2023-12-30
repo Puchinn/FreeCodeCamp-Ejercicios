@@ -1,0 +1,16 @@
+#preview {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  font-size: 18px;
+  color: #444;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 300;
+  line-height: 1.45;
+  padding: 0.25rem;
+  border-radius: 4px;
+  padding: 10px;
+  padding-bottom: 10px;
+  border: none;
+  box-shadow: 0 0 1px #444;
+}
