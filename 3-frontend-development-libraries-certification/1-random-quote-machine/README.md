@@ -1,7 +1,8 @@
-## Construye una máquina de frases aleatorias
+# React + Vite
 
-**Objetivo :** Build an app that is functionally similar to this: https://random-quote-machine.freecodecamp.rocks/.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery to complete this project. You should use a frontend framework (like React for example) because this section is about learning frontend frameworks. Additional technologies not listed above are not recommended and using them is at your own risk. We are looking at supporting other frontend frameworks like Angular and Vue, but they are not currently supported. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+Currently, two official plugins are available:
 
-[Ver demo](http://frameworks-proyecto1.surge.sh/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
