@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <main class="main">
+      <h1 id="title">Titulo del formulario</h1>
+      <p id="description">Lorem ipsum dolor sit amet.</p>
+      <div class="contenido">
+        <form action="#" id="survey-form" autocomplete="off">
+          <div class="div__option">
+            <p class="div__title">Nombre</p>
+            <label for="name" id="name-label">
+              <input
+                type="text"
+                name="name"
+                placeholder="Introduce Tu Nombre"
+                id="name"
+                required
+                class="input-p"
+              />
+            </label>
+          </div>
+          <div class="div__option">
+            <p class="div__title">Apellido</p>
+            <label for="apellido" id="apellido-label">
+              <input
+                type="text"
+                name="apellido"
+                placeholder="Introduce Tu Apellido"
+                id="apellido"
+                required
+                class="input-p"
+              />
+            </label>
+          </div>
+          <div class="div__option">
+            <p class="div__title">Edad</p>
+            <label for="number" id="number-label">
+              <input
+                type="number"
+                name="number"
+                placeholder="Introduce Tu Edad"
+                id="number"
+                min="10"
+                max="99"
+                class="input-p"
+              />
+            </label>
+          </div>
+          <div class="div__option">
+            <p class="div__title">Email</p>
+            <label for="Email" id="email-label">
+              <input
+                type="email"
+                name="Email"
+                placeholder="Introduce Tu Email"
+                id="email"
+                valid
+                required
+                class="input-p"
+              />
+            </label>
+          </div>
+          <div class="div__option">
+            <p class="div__title">Opciones</p>
+            <select name="opciones" id="dropdown" class="selector">
+              <option id="option" disabled="" selected="" value="">
+                Selec options
+              </option>
+              <option id="option" value="ejemplo">opciones 1</option>
+              <option id="option" value="ejemplo">opciones 2</option>
+              <option id="option" value="ejemplo">opciones 3</option>
+              <option id="option" value="ejemplo">opciones 4</option>
+            </select>
+          </div>
+          <div class="div__option">
+            <p class="div__title">Inputs radio</p>
+            <label for="caja1" class="label-r">
+              <input type="radio" name="cajas" id="caja1" value="caja1" /><span
+                >ejemplo 1</span
+              >
+            </label>
+            <label for="caja2" class="label-r">
+              <input type="radio" name="cajas" id="caja2" value="caja2" /><span
+                >ejemplo 2</span
+              >
+            </label>
+            <label for="caja3" class="label-r">
+              <input type="radio" name="cajas" id="caja3" value="caja3" /><span
+                >ejemplo 3</span
+              >
+            </label>
+          </div>
+          <div class="div__option">
+            <p class="div__title">Opciones</p>
+            <select name="opciones" id="dropdown" class="selector">
+              <option id="option" disabled="" selected="" value="">
+                Selec options
+              </option>
+              <option id="option" value="ejemplo">opciones 1</option>
+              <option id="option" value="ejemplo">opciones 2</option>
+              <option id="option" value="ejemplo">opciones 3</option>
+              <option id="option" value="ejemplo">opciones 4</option>
+            </select>
+          </div>
+          <div class="div__option">
+            <p class="div__title">Checkboxs</p>
+            <div class="checks">
+              <label for="check1">
+                <input
+                  type="checkbox"
+                  name="check1"
+                  id="check1"
+                  value="check1"
+                  class="rad"
+                /><span>box 1</span>
+              </label>
+              <label for="check2">
+                <input
+                  type="checkbox"
+                  name="check2"
+                  id="check2"
+                  value="check2"
+                  class="rad"
+                /><span>box 2</span>
+              </label>
+              <label for="check3">
+                <input
+                  type="checkbox"
+                  name="check3"
+                  id="check3"
+                  value="check3"
+                  class="rad"
+                /><span>box 3</span>
+              </label>
+              <label for="check4">
+                <input
+                  type="checkbox"
+                  name="check4"
+                  id="check4"
+                  value="check4"
+                  class="rad"
+                /><span>box 4</span>
+              </label>
+              <label for="check5">
+                <input
+                  type="checkbox"
+                  name="check5"
+                  id="check5"
+                  value="check5"
+                  class="rad"
+                /><span>box 5</span>
+              </label>
+              <label for="check6">
+                <input
+                  type="checkbox"
+                  name="check6"
+                  id="check6"
+                  value="check6"
+                  class="rad"
+                /><span>box 6</span>
+              </label>
+            </div>
+          </div>
+          <div class="div__option">
+            <p class="div__title">Text area</p>
+            <label for="text"></label>
+            <textarea
+              name="textarea"
+              id="text"
+              cols="30"
+              rows="10"
+              placeholder="Escribe aqui tus comentarios"
+            ></textarea>
+          </div>
+          <button type="submit" id="submit" class="input-p">Enviar</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
