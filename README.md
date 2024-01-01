@@ -1,28 +1,67 @@
-# Free Code Camp 🔥 - Ejercicios y Certificaciones
+<div align="center">
 
-**Acerca de:** Somos una comunidad sin fines de lucro que te ayuda a aprender a codificar mediante la construcción de proyectos.  
-[Ver sitio web](https://www.freecodecamp.org/)
+# Free code camp 🔥 - Exercises
 
-### Certificación - Diseño Web Responsivo
+</div>
 
-En esta certificación de Diseño Web Adaptativo, aprenderás los lenguajes que los desarrolladores usan para construir páginas web: HTML (Lenguaje de Marcado de Hipertexto) para el contenido, y CSS (hojas de estilo en cascada) para el diseño.
+Este repositorio contiene todos los proyectos necesarios para obtener algunas de las certificaciones de [free code camp](https://www.freecodecamp.org/learn).
 
-### Certificación - Algoritmos de JavaScript y Estructuras de Datos
+### Certifications links:
 
-En la certificación Algoritmos de JavaScript y Estructuras de Datos, aprenderás los fundamentos de JavaScript incluyendo variables, arreglos, objetos, bucles y funciones.
+- [Responsive Web Design Certification](https://www.freecodecamp.org/certification/Puchinn/responsive-web-design)
+- [JavaScript Algorithms and Data Structures Certification](https://www.freecodecamp.org/certification/Puchinn/javascript-algorithms-and-data-structures)
+- [Frontend Development Libraries Certification](https://www.freecodecamp.org/certification/Puchinn/front-end-development-libraries)
+- [Data Visualization Certification](https://www.freecodecamp.org/certification/Puchinn/data-visualization)
+- [Backend Development and APIs Certification](https://www.freecodecamp.org/certification/Puchinn/back-end-development-and-apis)
 
-### Certificación - Librerías de desarrollo de la interfaz
+## Proyects
 
-En la certificación de bibliotecas de desarrollo front-end, aprenderá cómo diseñar su sitio rápidamente con Bootstrap. También aprenderá cómo agregar lógica a sus estilos CSS y extenderlos con Sass.
+### Responsive Web Design:
 
-### Certificación - Visualización de Datos
+| Number | Name                        | Link to demo |
+| ------ | --------------------------- | ------------ |
+| `1`    | **Survey Form**             | [Demo]()     |
+| `2`    | **Tribute Page**            | [Demo]()     |
+| `3`    | **Technical Documentation** | [Demo]()     |
+| `4`    | **Product Landing Page**    | [Demo]()     |
+| `5`    | **Personal Portfolio**      | [Demo]()     |
 
-En la certificación Visualización de Datos, construirás diagramas, gráficos, y mapas para presentar diferentes tipos de datos utilizando la biblioteca D3.js.
+### JavaScript Algorithms and Data Structures
 
-### Certificación - Desarrollo Back End y APIs
+| Number | Name                           | Solution Code |
+| ------ | ------------------------------ | ------------- |
+| `1`    | **Palindrome Checker**         | [Code]()      |
+| `2`    | **Roman Numeral Converter**    | [Code]()      |
+| `3`    | **Caesars Cipher**             | [Code]()      |
+| `4`    | **Telephone Number Validator** | [Code]()      |
+| `5`    | **Cash Register**              | [Code]()      |
 
-En la Certificación Desarrollo de Back End y APIs, aprenderás cómo escribir aplicaciones de back-end con Node.js y npm (Node Package Manager). También construirás aplicaciones web con el framework Express, y un microservicio "People Finder" con MongoDB y la biblioteca Mongoose.
+### Frontend Development Libraries
 
-### Certificación - Control de Calidad
+| Number | Name                      | Solution Code |
+| ------ | ------------------------- | ------------- |
+| `1`    | **Random Quote Machine**  | [Demo]()      |
+| `2`    | **Markdown Previewer**    | [Demo]()      |
+| `3`    | **Drum Machine**          | [Demo]()      |
+| `4`    | **JavaScript Calculator** | [Demo]()      |
+| `5`    | **25 + 5 Clock**          | [Demo]()      |
 
-En la certificación de control de calidad, aprenderás a escribir pruebas con Chai para asegurarte de que tus aplicaciones funcionan como esperas.
+### Data Visualization
+
+| Number | Name                  | Link to demo |
+| ------ | --------------------- | ------------ |
+| `1`    | **Bar Chart**         | [Demo]()     |
+| `2`    | **Scatterplot Graph** | [Demo]()     |
+| `3`    | **Heat Map**          | [Demo]()     |
+| `4`    | **Choropleth Map**    | [Demo]()     |
+| `5`    | **Treemap Diagram**   | [Demo]()     |
+
+### Backend Development and APIs
+
+| Number | Name                                   | Link to demo |
+| ------ | -------------------------------------- | ------------ |
+| `1`    | **Timestamp Microservice**             | [Demo]()     |
+| `2`    | **Request Header Parser Microservice** | [Demo]()     |
+| `3`    | **URL Shortener Microservice**         | [Demo]()     |
+| `4`    | **Exercise Tracker**                   | [Demo]()     |
+| `5`    | **File Metadata Microservice**         | [Demo]()     |
