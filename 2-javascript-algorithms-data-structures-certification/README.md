@@ -1,27 +1,15 @@
-## Certificación - Algoritmos de JavaScript y proyectos de estructuras de datos
+## JavaScript Algorithms and Data Structures Certification
 
-En la certificación Algoritmos de JavaScript y Estructuras de Datos, aprenderás los fundamentos de JavaScript incluyendo variables, arreglos, objetos, bucles y funciones.
+In this course, I learned about data types such as `numbers`, `strings`, `booleans`, `dates`, etc. I learned the different ways to define variables (`var`, `let`, `const`) and their distinctions. I covered conditional logic, including statements like `if`, `else if`, `else`, and `switch`. Additionally, I gained knowledge about loops such as `for`, `for in`, `for of`, `while`, and `do while`, iterating over `arrays`, and understanding `objects` structures.
 
-Una vez que tengas los fundamentos, aplicarás ese conocimiento creando algoritmos para manipular cadenas, factorizar números e incluso calcular la órbita de la Estación Espacial Internacional.
+**Content**:
 
-A lo largo del camino, también aprenderás dos estilos o paradigmas importantes de programación: la Programación Orientada a Objetos (OOP), y la Programación Funcional (FP).
-
-### Proyectos
-
-- [Comprobador de palíndromos](01/)
-- [Conversor de números romanos](02/)
-- [Cifrado cesar](03/)
-- [Validador de números telefónicos](04/)
-- [Caja registradora](05/)
-
-### Temario
-
-- JavaScript básico
+- Basic JavaScript
 - ES6
-- Expresiones regulares
-- Depuración
-- Estructura de datos básicas
-- Programación de algoritmos básicos
-- Programación orientada a objetos
-- Programación funcional
-- Programación de algoritmos intermedios
+- Regular Expressions
+- Debuggin
+- Basic Data Structures
+- Basic Algorithm Scripting
+- Object Oriented Programming
+- Funtional Programming
+- Intermediate Algorithm Scripting
