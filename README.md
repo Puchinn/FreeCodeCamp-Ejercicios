@@ -67,5 +67,5 @@ For these projects I recommend to read the **readme** in their folders.
 | `1`    | **Timestamp Microservice**             | [Code](5-backend-development-apis-certification/1-timestamp-microservice/)     | [Demo](https://boilerplate-project-timestamp.sayagoo823.repl.co/)    |
 | `2`    | **Request Header Parser Microservice** | [Code](5-backend-development-apis-certification/2-header-parser-microservice/) | [Demo](https://boilerplate-project-headerparser.sayagoo823.repl.co/) |
 | `3`    | **URL Shortener Microservice**         | [Code](5-backend-development-apis-certification/3-url-shortener-microservice/) | [Demo](https://boilerplate-project-urlshortener.sayagoo823.repl.co/) |
-| `4`    | **Exercise Tracker**                   | [Code](5-backend-development-apis-certification/4-exercise-tracker/)           | [Demo](https://exercise-tracker-freecodecamp.sayagoo823.repl.co/)    |
+| `4`    | **Exercise Tracker Microservice**      | [Code](5-backend-development-apis-certification/4-exercise-tracker/)           | [Demo](https://exercise-tracker-freecodecamp.sayagoo823.repl.co/)    |
 | `5`    | **File Metadata Microservice**         | [Code](5-backend-development-apis-certification/5-file-metadata-microservice/) | [Demo](https://boilerplate-project-filemetadata.sayagoo823.repl.co/) |
