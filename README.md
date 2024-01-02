@@ -20,13 +20,13 @@ This repository contains all the projects needed to obtain some of the [free cod
 
 ### Responsive Web Design:
 
-| Number | Name                        | Link to demo                                         |
-| ------ | --------------------------- | ---------------------------------------------------- |
-| `1`    | **Survey Form**             | [Demo](https://fcc-survey-form.surge.sh/)            |
-| `2`    | **Tribute Page**            | [Demo](https://2-fcc-tribute-page.surge.sh/)         |
-| `3`    | **Technical Documentation** | [Demo](https://3-fcc-documentation-page.surge.sh/)   |
-| `4`    | **Product Landing Page**    | [Demo](https://4-fcc-product-landing-page.surge.sh/) |
-| `5`    | **Personal Portfolio**      | [Demo](https://5-fcc-personal-portfolio.surge.sh/)   |
+| Number | Name                                               | Link to demo                                         |
+| ------ | -------------------------------------------------- | ---------------------------------------------------- |
+| `1`    | **Survey Form**                                    | [Demo](https://fcc-survey-form.surge.sh/)            |
+| `2`    | **Tribute Page**                                   | [Demo](https://2-fcc-tribute-page.surge.sh/)         |
+| `3`    | **Technical Documentation**                        | [Demo](https://3-fcc-documentation-page.surge.sh/)   |
+| `4`    | **Product Landing Page**                           | [Demo](https://4-fcc-product-landing-page.surge.sh/) |
+| `5`    | **Personal Portfolio** (only example not official) | [Demo](https://5-fcc-personal-portfolio.surge.sh/)   |
 
 ### JavaScript Algorithms and Data Structures:
 
