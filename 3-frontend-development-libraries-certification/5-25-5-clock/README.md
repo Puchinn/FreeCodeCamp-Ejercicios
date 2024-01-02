@@ -1,5 +1,3 @@
-## 25 + 5 Reloj
+# 25 + 5 Clock
 
-**Objective:** Build an app that is functionally similar to this: https://25--5-clock.freecodecamp.rocks.
-
-[Ver demo](https://frameworks-proyecto5.surge.sh/)
+this project was made with **React** + **Vite** and some ESLint rules

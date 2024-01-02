@@ -1,5 +1,3 @@
-## Calculadora con JavaScript
+# JavaScript Calculator
 
-**Objetivo :** Build an app that is functionally similar to this: https://javascript-calculator.freecodecamp.rocks/.
-
-[Ver demo](https://frameworks-proyecto4.surge.sh/)
+this project was made with **JavaScript** Vanilla , **HTML** and **CSS**
