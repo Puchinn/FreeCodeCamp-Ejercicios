@@ -8,11 +8,11 @@ This repository contains all the projects needed to obtain some of the [free cod
 
 ### Certifications links:
 
-- [Responsive Web Design Certification](https://www.freecodecamp.org/certification/Puchinn/responsive-web-design)
-- [JavaScript Algorithms and Data Structures Certification](https://www.freecodecamp.org/certification/Puchinn/javascript-algorithms-and-data-structures)
-- [Frontend Development Libraries Certification](https://www.freecodecamp.org/certification/Puchinn/front-end-development-libraries)
-- [Data Visualization Certification](https://www.freecodecamp.org/certification/Puchinn/data-visualization)
-- [Backend Development and APIs Certification](https://www.freecodecamp.org/certification/Puchinn/back-end-development-and-apis)
+- [Responsive Web Design Certification](https://www.freecodecamp.org/certification/Puchinn/responsive-web-design).
+- [JavaScript Algorithms and Data Structures Certification](https://www.freecodecamp.org/certification/Puchinn/javascript-algorithms-and-data-structures).
+- [Frontend Development Libraries Certification](https://www.freecodecamp.org/certification/Puchinn/front-end-development-libraries).
+- [Data Visualization Certification](https://www.freecodecamp.org/certification/Puchinn/data-visualization).
+- [Backend Development and APIs Certification](https://www.freecodecamp.org/certification/Puchinn/back-end-development-and-apis).
 
 **INFO:** the projects presented in the **Responsive Web Design Certification** and **JavaScript Algorithms and Data Structures Certification** may vary from those presented here, as they were carried out in 2022.
 
@@ -28,7 +28,7 @@ This repository contains all the projects needed to obtain some of the [free cod
 | `4`    | **Product Landing Page**    | [Demo](https://4-fcc-product-landing-page.surge.sh/) |
 | `5`    | **Personal Portfolio**      | [Demo](https://5-fcc-personal-portfolio.surge.sh/)   |
 
-### JavaScript Algorithms and Data Structures
+### JavaScript Algorithms and Data Structures:
 
 | Number | Name                           | Solution Code                                                                               |
 | ------ | ------------------------------ | ------------------------------------------------------------------------------------------- |
@@ -38,7 +38,7 @@ This repository contains all the projects needed to obtain some of the [free cod
 | `4`    | **Telephone Number Validator** | [Code](2-javascript-algorithms-data-structures-certification/4-telephone-number-validator/) |
 | `5`    | **Cash Register**              | [Code](2-javascript-algorithms-data-structures-certification/5-cash-register/)              |
 
-### Frontend Development Libraries
+### Frontend Development Libraries:
 
 | Number | Name                      | Link to demo                                          |
 | ------ | ------------------------- | ----------------------------------------------------- |
@@ -48,7 +48,7 @@ This repository contains all the projects needed to obtain some of the [free cod
 | `4`    | **JavaScript Calculator** | [Demo](https://frameworks-proyecto4.surge.sh/)        |
 | `5`    | **25 + 5 Clock**          | [Demo](https://frameworks-proyecto5.surge.sh/)        |
 
-### Data Visualization
+### Data Visualization:
 
 | Number | Name                  | Link to demo                                               |
 | ------ | --------------------- | ---------------------------------------------------------- |
@@ -58,7 +58,7 @@ This repository contains all the projects needed to obtain some of the [free cod
 | `4`    | **Choropleth Map**    | [Demo](https://visualizacion-de-datos-proyecto4.surge.sh/) |
 | `5`    | **Treemap Diagram**   | [Demo](https://visualizacion-de-datos-proyecto5.surge.sh/) |
 
-### Backend Development and APIs
+### Backend Development and APIs:
 
 For these projects I recommend to read the **readme** in their folders.
 
